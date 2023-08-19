@@ -45,6 +45,7 @@
     display: flex;
     background-color: #3B4CCA;
     color: white;
+    text-shadow: black 1px 0 10px;
     line-height: 30pt;
   }
 
@@ -55,22 +56,31 @@
   header h1 {
     font-size: 60px;
     line-height: 60pt;
+    letter-spacing: 6px;
   }
 
   .header-button {
     margin-top: 2vh;
+    background-color: #FFDE00;
+    font-family: gameType;
+    padding: 10px;
+    font-weight: 800;
+    text-shadow: white 1px 0 10px;
   }
 
   h1 {
-    font-family: pokemonHollow;
-    
+    font-family: pokemonSolid;
     font-weight:bolder;
     color: #FFDE00;
+    text-shadow: black 1px 0 10px;
   }
 
   h2 {
-    font-family: pokemonHollow;
+    font-family: pokemonSolid;
+    text-shadow: white 1px 0 10px;
+    color: #CC0000;
     font-size: 48px;
+    letter-spacing: 6px;
     font-weight:bolder;
   }
 
@@ -113,8 +123,6 @@
   
   button {
     width: 200px;
-    background-color: #3882F6;
-    color: #FFDE00;
   }
 
   .logo {
@@ -136,7 +144,7 @@
   }
   
   .nav-item:hover {
-    background-color: #FFDE00
+    background-color: #CC0000;
   }
   
   .logo img {
@@ -152,4 +160,8 @@
     margin-top: 10vh;
     padding-top: 5vh;
     text-align: center;
+  }
+
+  footer {
+    background-color: #CC0000;
   }
