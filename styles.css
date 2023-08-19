@@ -1,4 +1,22 @@
-html {
+
+/* COLOR PALETTE INFO */
+/* * 		Name: Red
+* 		Hex: #FF0000
+* BOSTON UNIVERSITY RED			Name: Boston University Red
+* 		Hex: #CC0000
+* CERULEAN BLUE			Name: Cerulean Blue
+* 		Hex: #3B4CCA	
+* GOLDEN YELLOW			Name: Golden Yellow
+* 		Hex: #FFDE00
+* GOLD FOIL			Name: Gold Foil
+* 		Hex: #B3A125
+ */
+
+  
+  
+  
+  
+  html {
     box-sizing: border-box;
   }
   
@@ -9,14 +27,14 @@ html {
   }
   
   body {
-    font-family: Roboto;
-    background-color: #1F2937;
+    font-family: gameType;
+    font-size: 1.2em;
+    background-color: #3B4CCA;
   }
   
   nav {
-    width: 100%;
-    background-color: #1F2937;
-    padding-left: 30px;
+    margin-top: 3vh;
+    background-color: #3B4CCA;
     padding-right: 10px;
     display: flex;
     justify-content: space-around;
@@ -25,15 +43,35 @@ html {
 
   header {
     display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
+    background-color: #3B4CCA;
     color: white;
+    line-height: 30pt;
+  }
+
+  header p {
+    margin-top: 2vh;
+  }
+
+  header h1 {
+    font-size: 60px;
+    line-height: 60pt;
+  }
+
+  .header-button {
+    margin-top: 2vh;
   }
 
   h1 {
+    font-family: pokemonHollow;
+    
+    font-weight:bolder;
+    color: #FFDE00;
+  }
+
+  h2 {
+    font-family: pokemonHollow;
     font-size: 48px;
     font-weight:bolder;
-    color: #F9FAF8;
   }
 
   .header-left{
@@ -44,17 +82,45 @@ html {
     flex-direction: column;
   }
 
+  /* FONTS */
+  @font-face {
+    font-family: pokemonHollow;
+    src: url(./fonts/pokemonhollow.ttf);
+  }
+
+
+  @font-face {
+    font-family: pokemonSolid;
+    src: url(./fonts/pokemonsolid.ttf);
+  }
+
+  @font-face {
+    font-family: gameType;
+    src: url(./fonts/PKMN\ RBYGSC.ttf);
+  }
+
   .header-right {
     display: flex;
+    justify-content: space-around;
+    flex: 2;
     margin-top: 10vh;
+  }
+
+  .hero-img {
+    width: 40vw;
+    margin-bottom: 10vh;
   }
   
   button {
     width: 200px;
+    background-color: #3882F6;
+    color: #FFDE00;
   }
 
   .logo {
     display: inline-block;
+    width: 75px;
+    margin-top: 2vh;
   }
   
   .nav-links {
@@ -66,18 +132,24 @@ html {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: #FFDE00;
   }
   
   .nav-item:hover {
-    background-color: white;
-  }
-  
-  .nav-item:hover a {
-    color: darkgreen;
+    background-color: #FFDE00
   }
   
   .logo img {
     width: 175px;
     vertical-align: middle;
+  }
+
+  .starters {
+    background-color: #FFDE00;
+  }
+
+  .starters h2 {
+    margin-top: 10vh;
+    padding-top: 5vh;
+    text-align: center;
   }
