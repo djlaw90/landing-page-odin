@@ -44,8 +44,11 @@
   header {
     display: flex;
     background-color: #3B4CCA;
-    color: white;
-    text-shadow: black 1px 0 10px;
+    line-height: 30pt;
+  }
+
+  p {
+    background-color: #c4bebb;
     line-height: 30pt;
   }
 
@@ -155,6 +158,26 @@
   .starters {
     background-color: #FFDE00;
   }
+
+  .starters-content {
+    display:flex;
+    justify-content: center;
+  }
+
+  .oak {
+    width: 500px;
+  }
+
+  .oak-intro {
+    width: 700px;
+    margin-top: 15vh;
+  }
+
+  /* .oak-intro p {
+    
+  } */
+
+
 
   .starters h2 {
     margin-top: 10vh;
