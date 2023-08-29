@@ -29,15 +29,13 @@ html {
 body {
   font-family: gameType;
   font-size: 1.2em;
-  background-color: #3B4CCA;
 }
   
 nav {
-  margin-top: 1em;
+  padding: 1em 10em 0 0;
   background-color: #3B4CCA;
-  padding-right: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -88,7 +86,7 @@ h2 {
 .header-left{
   display: flex;
   flex: 1;
-  margin-top: 85px;
+  margin-top: 80px;
   margin-left: 100px;
   flex-direction: column;
 }
@@ -113,7 +111,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   flex: 2;
-  margin-top: 10vh;
+  margin-top: 100px;
 }
 
 .hero-img {
@@ -129,6 +127,7 @@ button {
   display: inline-block;
   width: 75px;
   margin-top: 2vh;
+  margin-left: 260px;
 }
 
 /* CSS ANIMATIONS, THANK YOU IAN LUNN HOVER.CSS */
@@ -265,7 +264,6 @@ button {
 }
 
 .starters h2 {
-  margin-top: 10vh;
   padding-top: 5vh;
   text-align: center;
 }
@@ -355,16 +353,27 @@ button {
 footer {
   width: 100%;
   background-color: #CC0000;
-  height: 500px;
+  height: 400px;
+  display: flex;
 }
 
 .footer-content {
   display: flex;
+  margin: auto;
+  width: 75%;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
   /* height: 300px; */
   border: 3px solid black;
   background-color: #3B4CCA;
   padding: 10px;
   border-radius: 10px;
+  height: 200px;
+}
+
+.footer-content h3 {
+  font-size: 34px;
 }
 
 .footer-button {
